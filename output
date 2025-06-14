@@ -1,0 +1,48 @@
+Sample Console Output
+Admin Login
+Enter username: wronguser
+Enter password: wrongpass
+Invalid credentials. 2 attempts remaining.
+
+Admin Login
+Enter username: admin
+Enter password: admin123
+Login successful!
+
+Library Management System
+1. Add Book
+2. View Books
+3. Update Book
+4. Delete Book
+5. Register User
+6. View Users
+7. Borrow Book
+8. Return Book
+9. View Borrowings
+10. Exit
+Enter choice: 1
+Enter title: To Kill a Mockingbird
+Enter author: Harper Lee
+Enter ISBN: 978-0446310789
+Enter publication year: 1960
+Enter available copies: 10
+Book added successfully!
+
+Enter choice: 2
+Book{id=1, title='The Great Gatsby', author='F. Scott Fitzgerald', isbn='978-0743273565', publicationYear=1925, availableCopies=5}
+Book{id=2, title='1984', author='George Orwell', isbn='978-0451524935', publicationYear=1949, availableCopies=3}
+Book{id=3, title='To Kill a Mockingbird', author='Harper Lee', isbn='978-0446310789', publicationYear=1960, availableCopies=10}
+
+Enter choice: 5
+Enter name: Alice Johnson
+Enter email: alice.johnson@example.com
+Enter phone number: 555-123-4567
+User registered successfully!
+
+Enter choice: 7
+Enter user ID: 3
+Enter book ID: 1
+Book borrowed successfully!
+
+Enter choice: 10
+Exiting...
